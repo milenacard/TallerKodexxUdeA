@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+#titulo {
+    background: -webkit-linear-gradient(#FFE0B2, #FF9800);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFE0B2, #FF9800);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFE0B2, #FF9800);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFE0B2, #FF9800);
+    /* Standard syntax */
+    text-align: center;
+    font-family: 'Sansita', sans-serif;
+}
+
+#navbar {
+    background-color: #FF9800;
+}
+
+#navbar ul {
+    display: -webkit-inline-box;
+    display: inline-flex;
+    width: inherit;
+    width: 95%;
+}
+
+#navbar ul li {
+    list-style-type: none;
+    width: 25%;
+    font-weight: bold;
+    font-family: 'Sansita', sans-serif;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#main {
+    display: flex;
+    height: 90vh;
+}
+
+#main div {
+    width: 30%;
+}
+
+#main div:nth-child(2) {
+    width: 40%
+}
+
+#chat {
+    border: orange;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+#chat form {
+    bottom: 0;
+    position: absolute;
+}
+
+button {
+    background-color: orange;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 3px;
+}
+
+#chat div:nth-child(2) {
+    padding: 1em;
+}
+
+#footer {
+    background-color: #FF9800;
+    padding: 1em;
+    font-family: 'Sansita', sans-serif;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.sansita {
+    font-family: 'Sansita', sans-serif;
+}

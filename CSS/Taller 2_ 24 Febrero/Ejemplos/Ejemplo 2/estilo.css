@@ -1,0 +1,120 @@
+/*El titulo va a tener el color de fondo #173E58 y letra de color 255,255,255*/
+
+#titulo {
+    color: rgb(255, 255, 255);
+    background-color: #173E58;
+}
+
+
+/*La imagen que está dentro de el título va a medir 50px x 50px*/
+
+#titulo img {
+    width: 50px;
+    height: 50px;
+}
+
+/*los enlaces van a estar de color E8EEDB*/
+a{
+  color: #E8EEDB;
+}
+
+/*La barra de navegación va a tener como color de fondo 23,62,88 y letra de color blanco*/
+
+#navegacion {
+    color: white;
+    background-color: rgb(23, 62, 88);
+}
+
+
+/*La bienvenida va a ocupar el 80% del alto de la pantalla
+va a tenercomo fondo la siguiente imagen
+http://powellong.com/data/wallpapers/51/WDF_976659.jpg */
+
+#bienvenida {
+    height: 80vh;
+    background-image: url('http://powellong.com/data/wallpapers/51/WDF_976659.jpg');
+    /*Para ajustar el tamaño de la imagen*/
+    background-size: cover;
+}
+
+
+/*El texto de bienvenida va a tener un tamaño de 5em*/
+
+#bienvenida h1 {
+    font-size: 5em;
+}
+
+
+/*la imagen de la seccion principal va a ocupar el 40% del ancho de la pantalla*/
+
+#quienes-somos img {
+    width: 40%;
+}
+
+
+/*el footer tendrá como color de fondo el 1F717E y un padding de 3em*/
+
+#copyright {
+    background-color: #1F717E;
+    padding: 3em;
+}
+
+
+/*Para eliminar el espacio blanco alrededor, vamos a dejar en 0 el valor del margen de la etiqueta body*/
+
+body {
+    margin: 0;
+}
+
+
+/*vamos a crear una clase llamada "sin-margen" en la que eliminemos el margen de las etiquetas que la tengan
+y se la aplicaremos a los elementos que lo necesitemos*/
+
+.sin-margen {
+    margin: 0;
+}
+
+
+/*La seccion quienes somos va a tener un padding arriba y abajo de 40px y a los lados de 60px
+la imagen estará centrada
+el titulo estará centrado
+el texto estará justificado
+*/
+
+#quienes-somos {
+    padding: 40px 60px 40px 60px;
+    text-align: center;
+}
+
+#quienes-somos p {
+    text-align: justify;
+}
+
+
+/*El tituo de bienvenida tendra las siguientes caracteristicas:
+alineado al centro
+fondo negro con opacidad del 40%
+margen superior de 150px
+Ayuda: Buscar la propiedad "position"
+*/
+
+#bienvenida h1 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 150px;
+    position: absolute;
+    width: 100%;
+}
+
+
+/*
+a los elementos de la lista:
+ quitarles el list-style
+ padding 1em y cambiarles la propiedad "display" de modo que se vean uno seguido del otro
+*/
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 1em;
+}
