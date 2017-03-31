@@ -1,0 +1,18 @@
+{
+  "name": "ejemplo1",
+  "version": "1.0.0",
+  "description": "Ejemplo de clase",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Milena Cardenas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
